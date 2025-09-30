@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Billions Network — Supermasks NFT</title>
+  <style>
+    body {margin:0; font-family: Arial, sans-serif; background:#000814; color:#e6eef8; text-align:center;}
+    header {padding:20px; background:#0b1020; font-weight:bold; font-size:20px; color:#4cc3ff;}
+    h1 {margin-top:30px; font-size:28px;}
+    p {color:#9aa6c1;}
+    .features {margin-top:20px; display:flex; justify-content:center; gap:12px; flex-wrap:wrap;}
+    .chip {background:#0b1020; padding:8px 14px; border-radius:20px; font-size:14px;}
+    .countdown {margin-top:25px; font-size:22px; font-weight:bold;}
+    footer {padding:20px; text-align:center; font-size:14px; color:#9aa6c1; background:#0b1020; margin-top:40px;}
+  </style>
+</head>
+<body>
+  <header>
+    Billions Network
+  </header>
+
+  <section>
+    <h1>Supermasks NFT</h1>
+    <p>Supermasks = your digital identity superpower</p>
+
+    <div class="features">
+      <div class="chip">Supply: <strong>8,888</strong></div>
+      <div class="chip">Chain: <strong>Polygon</strong></div>
+      <div class="chip">Price: <strong>$75</strong></div>
+      <div class="chip">Discount: <strong>$50</strong></div>
+    </div>
+
+    <div class="countdown" id="countdown">—:—:—:—</div>
+  </section>
+
+  <footer>
+    © 2025 Billions Network — Supermasks NFT
+  </footer>
+
+  <script>
+    // Mint date config (example: Oct 6, 2025)
+    const MINT_DATE = new Date('2025-10-06T12:00:00Z');
+
+    function updateCountdown(){
+      const now = new Date();
+      const diff = MINT_DATE - now;
+      const el = document.getElementById('countdown');
+      if(diff <= 0){el.textContent = 'Mint is LIVE 🚀'; return;}
+      const d = Math.floor(diff/86400000);
+      const h = Math.floor((diff%86400000)/3600000);
+      const m = Math.floor((diff%3600000)/60000);
+      const s = Math.floor((diff%60000)/1000);
+      el.textContent = `${d}d ${h}h ${m}m ${s}s`;
+    }
+    setInterval(updateCountdown,1000);
+    updateCountdown();
+  </script>
+</body>
+</html>
