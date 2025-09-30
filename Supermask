@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Supermasks NFT | Billions Network</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #0a0a0a;
+      color: #f0f0f0;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background: linear-gradient(90deg, #1a1a1a, #111111);
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom: 2px solid #00ffff;
+    }
+
+    header h1 {
+      margin: 0;
+      color: #00ffff;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      color: #aaa;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      margin-bottom: 2rem;
+    }
+
+    h2 {
+      color: #00ffff;
+      border-bottom: 1px solid #00ffff;
+      padding-bottom: 0.3rem;
+    }
+
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      background-color: #111111;
+      margin: 0.5rem 0;
+      padding: 0.8rem;
+      border-left: 4px solid #00ffff;
+    }
+
+    .dates {
+      background-color: #111111;
+      padding: 1rem;
+      border-left: 4px solid #ff00ff;
+      margin: 1rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      border-top: 1px solid #00ffff;
+      color: #888;
+      font-size: 0.9rem;
+    }
+
+    a {
+      color: #00ffff;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media(max-width: 600px){
+      header h1 { font-size: 2rem; }
+      header p { font-size: 1rem; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Supermasks NFT</h1>
+    <p>Your Identity Superpower | Billions Network</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Supermasks</h2>
+      <p>Each Supermask represents a unique human. In a world blurred by bots, deepfakes, and AI clones, your Supermask becomes your new identity superpower.</p>
+      <ul>
+        <li><strong>Total Supply:</strong> 8,888</li>
+        <li><strong>Mint Price:</strong> $75 (or $50 with discount)</li>
+        <li><strong>Blockchain:</strong> Polygon</li>
+        <li><strong>Utility:</strong> Acts as a multiplier on the Billions leaderboard on Kaito, grants a special Discord role, and gives access to future rewards</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Mint Phases</h2>
+      <ul>
+        <li><strong>Free mint / GTD:</strong> Earn via community activities, Genesis burns, for creators, etc.</li>
+        <li><strong>Discount / GTD:</strong> Discounted mint for community, Genesis holders, collabs, creators</li>
+        <li><strong>Paid / GTD:</strong> Fixed price mint, guaranteed for NFT collaborations</li>
+        <li><strong>Paid / FCFS:</strong> Fixed price, first-come-first-serve; overallocated spots</li>
+        <li><strong>Public:</strong> Remaining spots opened in FCFS fashion</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Important Dates & Vision</h2>
+      <div class="dates">
+        <strong>Save the date:</strong> Monday, 6th October, 13:00 UTC
+      </div>
+      <p>Vision: If you believe Web3’s next phase will be powered by billions of humans + AI agents, this is your chance to unlock new superpowers, growth, and a more robust digital identity.</p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Billions Network | <a href="#">Join our Discord</a>
+  </footer>
+</body>
+</html>
